@@ -17,6 +17,16 @@
     NSDate *dateCreated;
 }
 
+// Declare class method to generate random items
++ (instancetype)randomItem;
+
+// Declare custom object initializers
+- (instancetype)initWithItemName:(NSString *)name
+                  valueInDollars:(int)value
+                    serialNumber:(NSString *)sNumber;
+
+- (instancetype)initWithName:(NSString *)str;
+
 // Declare the getter and setter methods for each instance variable
 - (void)setItemName:(NSString *)str;
 - (NSString *)itemName;
@@ -28,11 +38,5 @@
 - (int)valueInDollars;
 
 - (NSDate *)dateCreated;
-
-- (instancetype)initWithItemName:(NSString *)name
-                  valueInDollars:(int)value
-                    serialNumber:(NSString *)sNumber;
-
-- (instancetype)initWithName:(NSString *)str;
 
 @end
