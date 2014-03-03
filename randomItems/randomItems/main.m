@@ -14,6 +14,7 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
+        /*
         // Create a muteable array object, store its address in items variable
         NSMutableArray *items = [[NSMutableArray alloc] init];
         
@@ -66,10 +67,22 @@ int main(int argc, const char * argv[])
         // NOTE: Calling an object by name defaults to calling the objects description method!
         NSLog(@"%@", item.description);
         NSLog(@"%@", item);
-        
+         
         // Destroy the mutable array object since we no longer need it
         items = nil;
-        item = nil;
+         */
+        
+        // Use designated initializer to setup object
+        BNRItem *item = [[BNRItem alloc] initWithItemName:@"Red Sofa" valueInDollars:100 serialNumber:@"A1B2C"];
+        NSLog(@"%@", item);
+        
+        // Check to see that other initilizers work
+        BNRItem *itemWithName = [[BNRItem alloc] initWithName:@"Green Sofa"];
+        NSLog(@"%@", itemWithName);
+        
+        BNRItem *itemWithNoName = [[BNRItem alloc] init];
+        NSLog(@"%@", itemWithNoName);
+        
         
     }
     return 0;

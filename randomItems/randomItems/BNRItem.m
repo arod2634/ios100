@@ -10,6 +10,11 @@
 
 @implementation BNRItem
 
+- (instancetype)init
+{
+    return [self initWithName:@"Item"];
+}
+
 - (instancetype)initWithName:(NSString *)name
 {
     return [self initWithItemName:name valueInDollars:0 serialNumber:@""];
