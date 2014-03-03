@@ -24,8 +24,8 @@
 - (void)setSerialNumber:(NSString *)str;
 - (NSString *)serialNumber;
 
-- (void)setValueInDollars:(NSString *)str;
-- (NSString *)valueInDollars;
+- (void)setValueInDollars:(int)v;
+- (int)valueInDollars;
 
 - (NSDate *)dateCreated;
 
