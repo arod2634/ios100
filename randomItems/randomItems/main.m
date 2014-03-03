@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BNRItem.h"
 
 int main(int argc, const char * argv[])
 {
@@ -35,9 +36,12 @@ int main(int argc, const char * argv[])
         for (NSString *item in items)
             NSLog(@"%@",item);
         
-        
         // Log out the values of the items object
         NSLog(@"%@", items);
+        
+        // Create an instance of BNRItem and log out its values
+        BNRItem *item = [[BNRItem alloc] init];
+        NSLog(@"%@ %@ %@ %d", [item itemName], [item serialNumber], [item dateCreated], [item valueInDollars]); 
         
         // Destroy the mutable array object since we no longer need it
         items = nil;
