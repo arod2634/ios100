@@ -56,6 +56,12 @@ int main(int argc, const char * argv[])
         NSLog(@"%@ %@ %@ %d", [item itemName], [item serialNumber], [item dateCreated], [item valueInDollars]);
         
         
+        // Lets try using dot syntax to set the instance variables...
+        item.itemName = @"Green Sofa";
+        item.serialNumber = @"ZXY123";
+        item.valueInDollars = 1000000;
+        NSLog(@"%@ %@ %@ %d", item.itemName, item.serialNumber, item.dateCreated, item.valueInDollars);
+        
         // Destroy the mutable array object since we no longer need it
         items = nil;
         item = nil;
