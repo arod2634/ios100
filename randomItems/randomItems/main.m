@@ -62,6 +62,11 @@ int main(int argc, const char * argv[])
         item.valueInDollars = 1000000;
         NSLog(@"%@ %@ %@ %d", item.itemName, item.serialNumber, item.dateCreated, item.valueInDollars);
         
+        // Display the item's description
+        // NOTE: Calling an object by name defaults to calling the objects description method!
+        NSLog(@"%@", item.description);
+        NSLog(@"%@", item);
+        
         // Destroy the mutable array object since we no longer need it
         items = nil;
         item = nil;
