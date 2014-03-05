@@ -22,6 +22,7 @@ int main(int argc, const char * argv[])
             [items addObject:item];
         }
         
+        // Use fast enumeration loop through the items array and log out the value of each item
         for (BNRItem *item in items) {
             NSLog(@"%@", item);
         }
