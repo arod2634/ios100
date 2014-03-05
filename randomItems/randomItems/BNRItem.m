@@ -74,9 +74,9 @@
     // Did the superclass's designated initializer succeed?
     if (self) {
         // Give the instance variables initial values
-        itemName = name;
-        valueInDollars = value;
-        serialNumber = sNumber;
+        [self setItemName:name];
+        [self setValueInDollars:value];
+        [self setSerialNumber:sNumber];
         // Set dateCreated to the current date and time
         dateCreated = [[NSDate alloc] init];
     }
