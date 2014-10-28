@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B2F082D19F8935300764E7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2F082C19F8935300764E7C /* main.m */; };
+		9B2F083019F8935300764E7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2F082F19F8935300764E7C /* AppDelegate.m */; };
+		9B2F083319F8935300764E7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2F083219F8935300764E7C /* ViewController.m */; };
+		9B2F083619F8935300764E7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2F083419F8935300764E7C /* Main.storyboard */; };
+		9B2F083819F8935300764E7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2F083719F8935300764E7C /* Images.xcassets */; };
+		9B2F083B19F8935300764E7C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B2F083919F8935300764E7C /* LaunchScreen.xib */; };
+		9B2F084719F8935400764E7C /* PrimeCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2F084619F8935400764E7C /* PrimeCalculatorTests.m */; };
+		9B6C73E819F8ADA5007F02D8 /* PrimeValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C73E719F8ADA5007F02D8 /* PrimeValidator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B2F084119F8935400764E7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B2F081F19F8935300764E7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B2F082619F8935300764E7C;
+			remoteInfo = PrimeCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B2F082719F8935300764E7C /* PrimeCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B2F082B19F8935300764E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B2F082C19F8935300764E7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B2F082E19F8935300764E7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B2F082F19F8935300764E7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B2F083119F8935300764E7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B2F083219F8935300764E7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B2F083519F8935300764E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B2F083719F8935300764E7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9B2F083A19F8935300764E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9B2F084019F8935300764E7C /* PrimeCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B2F084519F8935400764E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B2F084619F8935400764E7C /* PrimeCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimeCalculatorTests.m; sourceTree = "<group>"; };
+		9B6C73E619F8ADA5007F02D8 /* PrimeValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimeValidator.h; sourceTree = "<group>"; };
+		9B6C73E719F8ADA5007F02D8 /* PrimeValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimeValidator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B2F082419F8935300764E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B2F083D19F8935300764E7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B2F081E19F8935300764E7C = {
+			isa = PBXGroup;
+			children = (
+				9B2F082919F8935300764E7C /* PrimeCalculator */,
+				9B2F084319F8935400764E7C /* PrimeCalculatorTests */,
+				9B2F082819F8935300764E7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B2F082819F8935300764E7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B2F082719F8935300764E7C /* PrimeCalculator.app */,
+				9B2F084019F8935300764E7C /* PrimeCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B2F082919F8935300764E7C /* PrimeCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				9B2F082E19F8935300764E7C /* AppDelegate.h */,
+				9B2F082F19F8935300764E7C /* AppDelegate.m */,
+				9B2F083119F8935300764E7C /* ViewController.h */,
+				9B2F083219F8935300764E7C /* ViewController.m */,
+				9B2F083419F8935300764E7C /* Main.storyboard */,
+				9B2F083719F8935300764E7C /* Images.xcassets */,
+				9B2F083919F8935300764E7C /* LaunchScreen.xib */,
+				9B2F082A19F8935300764E7C /* Supporting Files */,
+				9B6C73E619F8ADA5007F02D8 /* PrimeValidator.h */,
+				9B6C73E719F8ADA5007F02D8 /* PrimeValidator.m */,
+			);
+			path = PrimeCalculator;
+			sourceTree = "<group>";
+		};
+		9B2F082A19F8935300764E7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B2F082B19F8935300764E7C /* Info.plist */,
+				9B2F082C19F8935300764E7C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B2F084319F8935400764E7C /* PrimeCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B2F084619F8935400764E7C /* PrimeCalculatorTests.m */,
+				9B2F084419F8935400764E7C /* Supporting Files */,
+			);
+			path = PrimeCalculatorTests;
+			sourceTree = "<group>";
+		};
+		9B2F084419F8935400764E7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B2F084519F8935400764E7C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B2F082619F8935300764E7C /* PrimeCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B2F084A19F8935400764E7C /* Build configuration list for PBXNativeTarget "PrimeCalculator" */;
+			buildPhases = (
+				9B2F082319F8935300764E7C /* Sources */,
+				9B2F082419F8935300764E7C /* Frameworks */,
+				9B2F082519F8935300764E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimeCalculator;
+			productName = PrimeCalculator;
+			productReference = 9B2F082719F8935300764E7C /* PrimeCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B2F083F19F8935300764E7C /* PrimeCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B2F084D19F8935400764E7C /* Build configuration list for PBXNativeTarget "PrimeCalculatorTests" */;
+			buildPhases = (
+				9B2F083C19F8935300764E7C /* Sources */,
+				9B2F083D19F8935300764E7C /* Frameworks */,
+				9B2F083E19F8935300764E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B2F084219F8935400764E7C /* PBXTargetDependency */,
+			);
+			name = PrimeCalculatorTests;
+			productName = PrimeCalculatorTests;
+			productReference = 9B2F084019F8935300764E7C /* PrimeCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B2F081F19F8935300764E7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Alex Rodriguez";
+				TargetAttributes = {
+					9B2F082619F8935300764E7C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					9B2F083F19F8935300764E7C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 9B2F082619F8935300764E7C;
+					};
+				};
+			};
+			buildConfigurationList = 9B2F082219F8935300764E7C /* Build configuration list for PBXProject "PrimeCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B2F081E19F8935300764E7C;
+			productRefGroup = 9B2F082819F8935300764E7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B2F082619F8935300764E7C /* PrimeCalculator */,
+				9B2F083F19F8935300764E7C /* PrimeCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B2F082519F8935300764E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2F083619F8935300764E7C /* Main.storyboard in Resources */,
+				9B2F083B19F8935300764E7C /* LaunchScreen.xib in Resources */,
+				9B2F083819F8935300764E7C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B2F083E19F8935300764E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B2F082319F8935300764E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2F083319F8935300764E7C /* ViewController.m in Sources */,
+				9B2F083019F8935300764E7C /* AppDelegate.m in Sources */,
+				9B6C73E819F8ADA5007F02D8 /* PrimeValidator.m in Sources */,
+				9B2F082D19F8935300764E7C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B2F083C19F8935300764E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2F084719F8935400764E7C /* PrimeCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B2F084219F8935400764E7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B2F082619F8935300764E7C /* PrimeCalculator */;
+			targetProxy = 9B2F084119F8935400764E7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B2F083419F8935300764E7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B2F083519F8935300764E7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B2F083919F8935300764E7C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B2F083A19F8935300764E7C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B2F084819F8935400764E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B2F084919F8935400764E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B2F084B19F8935400764E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrimeCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B2F084C19F8935400764E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrimeCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9B2F084E19F8935400764E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PrimeCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimeCalculator.app/PrimeCalculator";
+			};
+			name = Debug;
+		};
+		9B2F084F19F8935400764E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PrimeCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimeCalculator.app/PrimeCalculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B2F082219F8935300764E7C /* Build configuration list for PBXProject "PrimeCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B2F084819F8935400764E7C /* Debug */,
+				9B2F084919F8935400764E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B2F084A19F8935400764E7C /* Build configuration list for PBXNativeTarget "PrimeCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B2F084B19F8935400764E7C /* Debug */,
+				9B2F084C19F8935400764E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B2F084D19F8935400764E7C /* Build configuration list for PBXNativeTarget "PrimeCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B2F084E19F8935400764E7C /* Debug */,
+				9B2F084F19F8935400764E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B2F081F19F8935300764E7C /* Project object */;
+}
